@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="nav-system"><a href="Services.html"><strong style="color: black;">Services</strong></a></li>
+                <li class="nav-system"><a href="about.html"><strong style="color: black;">About Us</strong></a></li>
+                <li class="logo"><a href="index.html" style="color: black;">CRC Logo</a></li>
+                <li class="nav-system"><a href="contact.html" style="color: black; text-decoration: underline;"><strong>Contact Us</strong></a></li>
+                <li class="nav-system"><a href="reviews.html" style="color: black;"><strong>Reviews</strong></a></li>
+            </ul>
+        </nav>
+        <header>
+            <h1 class="title-header">
+                Contact Us
+            </h1>
+        </header>
+
+        <div class="connect">
+            <h1 class="msg-header">
+                Connect With Us
+            </h1>
+            <div class="contact-box">
+                <div class="contact-left">
+                    <h3>Send your request</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <div class="input-row">
+                            <input type="hidden" name="access_key" value="2b574071-2cfd-40f3-a5c8-35a15ff13806">
+                            <div class="input-group">
+                                <label>Name</label>
+                                <input type="text" name="Name" placeholder="John Doe" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Phone</label>
+                                <input type="text" name="Phone Number" placeholder="+1 (012) 345-6789" required>
+                            </div>
+                        </div>
+                        <div class="input-row">
+                            <div class="input-group">
+                                <label>Email</label>
+                                <input type="text" name="Email" placeholder="johndoe@yahoo.com" required>
+                            </div>
+                            <div class="input-group">
+                                <label>Subject</label>
+                                <input type="text" name="Subject" placeholder="Subject" required>
+                            </div>
+                        </div>
+                        <label>Message</label>
+                        <textarea rows="5" name="Message" placeholder="Your Message" style="font-family: Times New Roman; font-size: 15px;" required></textarea>
+                        <button type="submit">SEND</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <h3>Reach Us</h3>
+
+                    <table>
+                        <tr>
+                            <td style="font-weight: 1000;">Email</td>
+                            <td>sarah.morrison@socialworker.net</td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td style="font-weight: 1000;">Phone</td>
+                            <td>+1 (812) 929-8174</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="flex-child" style="text-align: right;">
+                <strong>+1 (812) 929-8174</strong>
+            </div>
+            <hr  width="1px" size="50" color="#1c00b5" style="margin: 40px 25px;">
+            <div class="big-child"></div>
+            <hr  width="1px" size="50" color="#1c00b5" style="margin: 40px 25px;">
+            <div class="flex-child" style="text-align: left;">
+                <strong>sarah.morrison@socialworker.net</strong>
+            </div>
+        </footer>
+    </body>
+</html>
